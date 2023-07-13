@@ -18,7 +18,7 @@ Algumas dependencias do yarn causam conflito com a versão do node, entao só se
    * [Acessando o Site](#Acessando-o-Site)
 
 ## Como usar
- O gerenciador de pacotes utilizados para baixar as bibliotecas do projeto foi o yarn. Portanto recomenda-se o uso dele para buildar o projetoem sua maquina. Para isso, você deve seguir os passos abaixos:
+ O gerenciador de pacotes utilizados para baixar as bibliotecas do projeto foi o yarn(caso nao possua yarn na maquina, acesse https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable). Portanto recomenda-se o uso dele para buildar o projetoem sua maquina. Para isso, você deve seguir os passos abaixos:
 
 ### `git clone https://github.com/pedromarques-dev/travel-app.git`
 ### `cd travel-app`
