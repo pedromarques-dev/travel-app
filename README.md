@@ -56,4 +56,4 @@ Caso deseja apenas ver o projeto, ele ja foi hospedado no vercel. Va na aba: [Ac
 
 ## Acessando o site
 
-  Para acessar o site, clique no link a seguir: <a href='https://travel-app-roan.vercel.app/' target='_blank'>Dev Movie</a>
+  Para acessar o site, clique no link a seguir: <a href='https://travel-app-roan.vercel.app/' target='_blank'>Travel App</a>
