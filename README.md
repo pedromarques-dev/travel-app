@@ -36,7 +36,7 @@ Caso deseja apenas ver o projeto, ele ja foi hospedado no vercel. Va na aba: [Ac
        
 ## Objetivo
 
-  O desafio é criar um sistema de Check-in para o cliente conseguir agendar a sua viagem. É pedido dados pessoais, data de ida e volta, origem e destino e a quantidade de passageiros (adultos e crianças 
+  O desafio é criar um sistema de Check-in para o cliente conseguir agendar a sua viagem. É pedido dados pessoais, data de ida e volta, origem e destino e a quantidade de passageiros (adultos e crianças) 
  
   Alguns metodos utilizados no projeto:
    
