@@ -1,17 +1,10 @@
-import {
-  Box,
-  BoxProps,
-  Flex,
-  Input,
-  InputGroup,
-  Tooltip,
-} from "@chakra-ui/react";
 import * as React from "react";
+import { Box, BoxProps, Flex, InputGroup, Tooltip } from "@chakra-ui/react";
 import RDatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { ptBR } from "date-fns/locale";
-import moment from "moment";
 import { Label } from "../Label";
+import { InputDate } from "../InputDate";
 
 interface IProps {
   boxProps?: BoxProps;
@@ -59,21 +52,10 @@ export const DatePicker: React.FC<IProps> = (props) => {
                   isBackDate === false && "Selecione primeiro a data de ida"
                 }
               >
-                <Input
-                  w={{
-                    base: "100%",
-                    md: 250,
-                    xl: "100%",
-                  }}
-                  value={
-                    departureDate
-                      ? moment(departureDate).format("DD/MM/yyyy")
-                      : moment(selectedDate).format("DD/MM/yyyy")
-                  }
-                  letterSpacing="2px"
-                  bgColor="#fff"
-                  cursor={isBackDate === false ? "not-allowed" : "pointer"}
-                  opacity={isBackDate === false ? 0.5 : 1}
+                <InputDate
+                  departureDate={departureDate}
+                  isBackDate={isBackDate}
+                  selectedDate={selectedDate}
                 />
               </Tooltip>
             </Flex>
