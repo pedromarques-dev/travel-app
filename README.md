@@ -20,12 +20,12 @@ Algumas dependencias do yarn causam conflito com a versão do node, entao só se
 ## Como usar
  O gerenciador de pacotes utilizados para baixar as bibliotecas do projeto foi o yarn. Portanto recomenda-se o uso dele para buildar o projetoem sua maquina. Para isso, você deve seguir os passos abaixos:
 
-### `git clone https://github.com/pedromarques-dev/dev-movie.git`
+### `git clone https://github.com/pedromarques-dev/travel-app.git`
 ### `cd travel-app`
 ### `yarn install`
 ### `yarn start`
 
-Caso deseja apenas ver o projeto, ele ja foi hospedado no vercel. Va na aba: 
+Caso deseja apenas ver o projeto, ele ja foi hospedado no vercel. Va na aba: [Acessando o Site](#Acessando-o-Site)
 
 ## Sobre
   O projeto vem de uma empresa chamada Wizzi e é utilizado como desafio em seu processo seletivo.
